@@ -1,0 +1,64 @@
+<Project Sdk="Godot.NET.Sdk/4.4.1">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="Utils.fs" />
+		<Compile Include="Godot\FG.fs" />
+		<Compile Include="Godot\Signals.fs" />
+		<Compile Include="Godot\GodotUtils.fs" />
+		<Compile Include="RenderingServerDSL.fs" />
+		<Compile Include="Chapter1\Utils0.fs" />
+		<Compile Include="Chapter1\Sample0.fs" />
+		<Compile Include="Chapter1\Utils1.fs" />
+		<Compile Include="Chapter1\Sample1.fs" />
+		<Compile Include="Chapter1\Utils2.fs" />
+		<Compile Include="Chapter1\Sample2.fs" />
+		<Compile Include="Chapter1\Utils3.fs" />
+		<Compile Include="Chapter1\Sample3.fs" />
+		<Compile Include="Chapter1\Sample4.fs" />
+		<Compile Include="Chapter1\Utils5.fs" />
+		<Compile Include="Chapter1\Sample5.fs" />
+		<Compile Include="Chapter1\Utils6.fs" />
+		<Compile Include="Chapter1\Sample6.fs" />
+		<Compile Include="Chapter1\Sample7.fs" />
+		<Compile Include="Chapter1\Sample8.fs" />
+		<Compile Include="Chapter1\Utils9.fs" />
+		<Compile Include="Chapter1\Sample9.fs" />
+		<Compile Include="Chapter1\Utils10.fs" />
+		<Compile Include="Chapter1\AllSamples.fs" />
+		<Compile Include="Chapter2\Utils.fs" />
+		<Compile Include="chapter2\Var1.fs" />
+		<Compile Include="Chapter2\Sample1.fs" />
+		<Compile Include="Chapter2\Var1Exts.fs" />
+		<Compile Include="Chapter2\Sample2.fs" />
+		<Compile Include="Chapter2\Sample3.fs" />
+		<Compile Include="chapter2\Var4.fs" />
+		<Compile Include="Chapter2\Sample4.fs" />
+		<Compile Include="Chapter2\Sample5.fs" />
+		<Compile Include="chapter2\Var6.fs" />
+		<Compile Include="Chapter2\Sample6.fs" />
+		<Compile Include="Chapter2\Sample7.fs" />
+		<Compile Include="chapter2\Var8.fs" />
+		<Compile Include="Chapter2\Sample8.fs" />
+		<Compile Include="chapter2\Var9.fs" />
+		<Compile Include="Chapter2\Sample9.fs" />
+		<Compile Include="Chapter2\AllSamples.fs" />
+		<Compile Include="EntryPoint.fs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Article16.Utils\Article16.Utils.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="FSharp.Control.Reactive" Version="6.1.2" />
+		<PackageReference Include="FSharpx.Collections" Version="3.1.0" />
+		<PackageReference Include="Hedgehog" Version="0.13.0" />
+		<PackageReference Include="FsToolkit.ErrorHandling" Version="4.18.0" />
+		<PackageReference Include="Hopac" Version="0.5.0" />
+	</ItemGroup>
+	<ItemGroup />
+
+</Project>

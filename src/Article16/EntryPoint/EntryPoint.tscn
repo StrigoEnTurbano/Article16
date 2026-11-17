@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b74yv3hdn7tew"]
+
+[ext_resource type="Script" uid="uid://67p1wn0xyi0d" path="res://SummonFSharp.cs" id="1_ook3b"]
+
+[node name="EntryPoint" type="Node"]
+script = ExtResource("1_ook3b")
+metadata/_custom_type_script = "uid://67p1wn0xyi0d"

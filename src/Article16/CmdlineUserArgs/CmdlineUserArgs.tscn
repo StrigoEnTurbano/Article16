@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbchfmefsirhp"]
+
+[ext_resource type="Script" uid="uid://67p1wn0xyi0d" path="res://SummonFSharp.cs" id="1_xc4l0"]
+
+[node name="CmdlineUserArgs" type="Node"]
+script = ExtResource("1_xc4l0")
+metadata/A = Color(0.572495, 0.77, 0.1463, 1)
